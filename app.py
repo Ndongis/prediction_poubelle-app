@@ -95,7 +95,7 @@ if uploaded_file:
     result.save(filename=output_path)
 
     with col_yolo:
-        st.subheader("🎯 Prédiction YOLO")
+        st.subheader("Prédiction YOLO")
         st.image(output_path, use_container_width=True)
         st.markdown(f"### Résultat : **{prediction}**")
 
