@@ -56,7 +56,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🗑️ Classification des poubelles avec YOLO by Ndongo")
+st.title("🗑️ Classification des poubelles avec YOLO")
 
 # --- Layout en colonnes ---
 col_upload, col_original, col_yolo = st.columns([1, 2, 2])
