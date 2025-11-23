@@ -56,7 +56,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🗑️ Classification des poubelles avec YOLO")
+st.title("Classification des poubelles avec YOLO")
 
 # --- Layout en colonnes ---
 col_upload, col_original, col_yolo = st.columns([1, 2, 2])
@@ -101,6 +101,6 @@ if uploaded_file:
 
 else:
     with col_original:
-        st.info("Importez une image pour afficher la preview.")
+        st.info("Importez une image pour afficher l'image.")
     with col_yolo:
         st.info("L’image annotée YOLO apparaîtra ici.")
