@@ -101,6 +101,6 @@ if uploaded_file:
 
 else:
     with col_original:
-        st.info("Importez une image pour afficher l'image.")
+        st.info("Importez une image pour afficher")
     with col_yolo:
         st.info("L’image annotée YOLO apparaîtra ici.")
